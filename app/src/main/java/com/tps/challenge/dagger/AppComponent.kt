@@ -1,7 +1,7 @@
 package com.tps.challenge.dagger
 
 import com.tps.challenge.TCApplication
-import com.tps.challenge.features.storefeed.StoreFeedFragment
+import com.tps.challenge.features.storefeed.views.StoreFeedFragment
 import dagger.Component
 import javax.inject.Singleton
 

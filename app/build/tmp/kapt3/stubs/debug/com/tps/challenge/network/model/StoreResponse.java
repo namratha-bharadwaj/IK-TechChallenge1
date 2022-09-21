@@ -5,37 +5,39 @@ import java.lang.System;
 /**
  * Store remote data model.
  */
-@kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u0000\"\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0015\n\u0002\u0010\u000b\n\u0002\b\u0002\n\u0002\u0010\b\n\u0002\b\u0002\b\u0086\b\u0018\u00002\u00020\u0001B5\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0003\u0012\u0006\u0010\u0005\u001a\u00020\u0003\u0012\u0006\u0010\u0006\u001a\u00020\u0003\u0012\u0006\u0010\u0007\u001a\u00020\u0003\u0012\u0006\u0010\b\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\tJ\t\u0010\u0011\u001a\u00020\u0003H\u00c6\u0003J\t\u0010\u0012\u001a\u00020\u0003H\u00c6\u0003J\t\u0010\u0013\u001a\u00020\u0003H\u00c6\u0003J\t\u0010\u0014\u001a\u00020\u0003H\u00c6\u0003J\t\u0010\u0015\u001a\u00020\u0003H\u00c6\u0003J\t\u0010\u0016\u001a\u00020\u0003H\u00c6\u0003JE\u0010\u0017\u001a\u00020\u00002\b\b\u0002\u0010\u0002\u001a\u00020\u00032\b\b\u0002\u0010\u0004\u001a\u00020\u00032\b\b\u0002\u0010\u0005\u001a\u00020\u00032\b\b\u0002\u0010\u0006\u001a\u00020\u00032\b\b\u0002\u0010\u0007\u001a\u00020\u00032\b\b\u0002\u0010\b\u001a\u00020\u0003H\u00c6\u0001J\u0013\u0010\u0018\u001a\u00020\u00192\b\u0010\u001a\u001a\u0004\u0018\u00010\u0001H\u00d6\u0003J\t\u0010\u001b\u001a\u00020\u001cH\u00d6\u0001J\t\u0010\u001d\u001a\u00020\u0003H\u00d6\u0001R\u0016\u0010\u0006\u001a\u00020\u00038\u0006X\u0087\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\n\u0010\u000bR\u0016\u0010\b\u001a\u00020\u00038\u0006X\u0087\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\f\u0010\u000bR\u0016\u0010\u0005\u001a\u00020\u00038\u0006X\u0087\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\r\u0010\u000bR\u0016\u0010\u0002\u001a\u00020\u00038\u0006X\u0087\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\u000e\u0010\u000bR\u0016\u0010\u0004\u001a\u00020\u00038\u0006X\u0087\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\u000f\u0010\u000bR\u0016\u0010\u0007\u001a\u00020\u00038\u0006X\u0087\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0010\u0010\u000b\u00a8\u0006\u001e"}, d2 = {"Lcom/tps/challenge/network/model/StoreResponse;", "", "id", "", "name", "description", "coverImgUrl", "status", "deliveryFeeCents", "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V", "getCoverImgUrl", "()Ljava/lang/String;", "getDeliveryFeeCents", "getDescription", "getId", "getName", "getStatus", "component1", "component2", "component3", "component4", "component5", "component6", "copy", "equals", "", "other", "hashCode", "", "toString", "app_debug"})
-public final class StoreResponse {
+@kotlinx.android.parcel.Parcelize()
+@kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u00004\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0015\n\u0002\u0010\b\n\u0000\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0000\n\u0002\b\u0003\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\b\u0087\b\u0018\u00002\u00020\u0001BA\u0012\b\b\u0001\u0010\u0002\u001a\u00020\u0003\u0012\b\b\u0001\u0010\u0004\u001a\u00020\u0003\u0012\b\b\u0001\u0010\u0005\u001a\u00020\u0003\u0012\b\b\u0001\u0010\u0006\u001a\u00020\u0003\u0012\b\b\u0001\u0010\u0007\u001a\u00020\u0003\u0012\b\b\u0001\u0010\b\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\tJ\t\u0010\u0011\u001a\u00020\u0003H\u00c6\u0003J\t\u0010\u0012\u001a\u00020\u0003H\u00c6\u0003J\t\u0010\u0013\u001a\u00020\u0003H\u00c6\u0003J\t\u0010\u0014\u001a\u00020\u0003H\u00c6\u0003J\t\u0010\u0015\u001a\u00020\u0003H\u00c6\u0003J\t\u0010\u0016\u001a\u00020\u0003H\u00c6\u0003JE\u0010\u0017\u001a\u00020\u00002\b\b\u0003\u0010\u0002\u001a\u00020\u00032\b\b\u0003\u0010\u0004\u001a\u00020\u00032\b\b\u0003\u0010\u0005\u001a\u00020\u00032\b\b\u0003\u0010\u0006\u001a\u00020\u00032\b\b\u0003\u0010\u0007\u001a\u00020\u00032\b\b\u0003\u0010\b\u001a\u00020\u0003H\u00c6\u0001J\t\u0010\u0018\u001a\u00020\u0019H\u00d6\u0001J\u0013\u0010\u001a\u001a\u00020\u001b2\b\u0010\u001c\u001a\u0004\u0018\u00010\u001dH\u00d6\u0003J\t\u0010\u001e\u001a\u00020\u0019H\u00d6\u0001J\t\u0010\u001f\u001a\u00020\u0003H\u00d6\u0001J\u0019\u0010 \u001a\u00020!2\u0006\u0010\"\u001a\u00020#2\u0006\u0010$\u001a\u00020\u0019H\u00d6\u0001R\u0011\u0010\u0006\u001a\u00020\u0003\u00a2\u0006\b\n\u0000\u001a\u0004\b\n\u0010\u000bR\u0011\u0010\b\u001a\u00020\u0003\u00a2\u0006\b\n\u0000\u001a\u0004\b\f\u0010\u000bR\u0011\u0010\u0005\u001a\u00020\u0003\u00a2\u0006\b\n\u0000\u001a\u0004\b\r\u0010\u000bR\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\b\n\u0000\u001a\u0004\b\u000e\u0010\u000bR\u0011\u0010\u0004\u001a\u00020\u0003\u00a2\u0006\b\n\u0000\u001a\u0004\b\u000f\u0010\u000bR\u0011\u0010\u0007\u001a\u00020\u0003\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0010\u0010\u000b\u00a8\u0006%"}, d2 = {"Lcom/tps/challenge/network/model/StoreResponse;", "Landroid/os/Parcelable;", "id", "", "name", "description", "coverImgUrl", "status", "deliveryFeeCents", "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V", "getCoverImgUrl", "()Ljava/lang/String;", "getDeliveryFeeCents", "getDescription", "getId", "getName", "getStatus", "component1", "component2", "component3", "component4", "component5", "component6", "copy", "describeContents", "", "equals", "", "other", "", "hashCode", "toString", "writeToParcel", "", "parcel", "Landroid/os/Parcel;", "flags", "app_debug"})
+public final class StoreResponse implements android.os.Parcelable {
     @org.jetbrains.annotations.NotNull()
-    @com.google.gson.annotations.SerializedName(value = "id")
     private final java.lang.String id = null;
     @org.jetbrains.annotations.NotNull()
-    @com.google.gson.annotations.SerializedName(value = "name")
     private final java.lang.String name = null;
     @org.jetbrains.annotations.NotNull()
-    @com.google.gson.annotations.SerializedName(value = "description")
     private final java.lang.String description = null;
     @org.jetbrains.annotations.NotNull()
-    @com.google.gson.annotations.SerializedName(value = "cover_img_url")
     private final java.lang.String coverImgUrl = null;
     @org.jetbrains.annotations.NotNull()
-    @com.google.gson.annotations.SerializedName(value = "status")
     private final java.lang.String status = null;
     @org.jetbrains.annotations.NotNull()
-    @com.google.gson.annotations.SerializedName(value = "delivery_fee")
     private final java.lang.String deliveryFeeCents = null;
+    public static final android.os.Parcelable.Creator<com.tps.challenge.network.model.StoreResponse> CREATOR = null;
     
     /**
      * Store remote data model.
      */
     @org.jetbrains.annotations.NotNull()
     public final com.tps.challenge.network.model.StoreResponse copy(@org.jetbrains.annotations.NotNull()
+    @com.squareup.moshi.Json(name = "id")
     java.lang.String id, @org.jetbrains.annotations.NotNull()
+    @com.squareup.moshi.Json(name = "name")
     java.lang.String name, @org.jetbrains.annotations.NotNull()
+    @com.squareup.moshi.Json(name = "description")
     java.lang.String description, @org.jetbrains.annotations.NotNull()
+    @com.squareup.moshi.Json(name = "cover_img_url")
     java.lang.String coverImgUrl, @org.jetbrains.annotations.NotNull()
+    @com.squareup.moshi.Json(name = "status")
     java.lang.String status, @org.jetbrains.annotations.NotNull()
+    @com.squareup.moshi.Json(name = "delivery_fee")
     java.lang.String deliveryFeeCents) {
         return null;
     }
@@ -67,11 +69,17 @@ public final class StoreResponse {
     }
     
     public StoreResponse(@org.jetbrains.annotations.NotNull()
+    @com.squareup.moshi.Json(name = "id")
     java.lang.String id, @org.jetbrains.annotations.NotNull()
+    @com.squareup.moshi.Json(name = "name")
     java.lang.String name, @org.jetbrains.annotations.NotNull()
+    @com.squareup.moshi.Json(name = "description")
     java.lang.String description, @org.jetbrains.annotations.NotNull()
+    @com.squareup.moshi.Json(name = "cover_img_url")
     java.lang.String coverImgUrl, @org.jetbrains.annotations.NotNull()
+    @com.squareup.moshi.Json(name = "status")
     java.lang.String status, @org.jetbrains.annotations.NotNull()
+    @com.squareup.moshi.Json(name = "delivery_fee")
     java.lang.String deliveryFeeCents) {
         super();
     }
@@ -134,5 +142,36 @@ public final class StoreResponse {
     @org.jetbrains.annotations.NotNull()
     public final java.lang.String getDeliveryFeeCents() {
         return null;
+    }
+    
+    @java.lang.Override()
+    public int describeContents() {
+        return 0;
+    }
+    
+    @java.lang.Override()
+    public void writeToParcel(@org.jetbrains.annotations.NotNull()
+    android.os.Parcel parcel, int flags) {
+    }
+    
+    @kotlin.Metadata(mv = {1, 5, 1}, k = 3)
+    public static final class Creator implements android.os.Parcelable.Creator<com.tps.challenge.network.model.StoreResponse> {
+        
+        public Creator() {
+            super();
+        }
+        
+        @org.jetbrains.annotations.NotNull()
+        @java.lang.Override()
+        public final com.tps.challenge.network.model.StoreResponse createFromParcel(@org.jetbrains.annotations.NotNull()
+        android.os.Parcel in) {
+            return null;
+        }
+        
+        @org.jetbrains.annotations.NotNull()
+        @java.lang.Override()
+        public final com.tps.challenge.network.model.StoreResponse[] newArray(int size) {
+            return null;
+        }
     }
 }

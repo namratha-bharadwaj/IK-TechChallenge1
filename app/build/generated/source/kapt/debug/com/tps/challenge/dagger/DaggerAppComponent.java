@@ -2,7 +2,7 @@
 package com.tps.challenge.dagger;
 
 import com.tps.challenge.TCApplication;
-import com.tps.challenge.features.storefeed.StoreFeedFragment;
+import com.tps.challenge.features.storefeed.views.StoreFeedFragment;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Preconditions;
 

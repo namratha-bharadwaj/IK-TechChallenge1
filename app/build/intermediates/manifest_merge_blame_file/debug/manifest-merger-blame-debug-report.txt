@@ -5,7 +5,7 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="24"
+8        android:minSdkVersion="26"
 8-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="30" />
 9-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml
@@ -63,6 +63,51 @@
 38-->[com.squareup.picasso:picasso:2.71828] /Users/nbharadwaj/.gradle/caches/transforms-3/4065bfb6223df804c32ed846a8e49b83/transformed/picasso-2.71828/AndroidManifest.xml:10:13-72
 39            android:exported="false" />
 39-->[com.squareup.picasso:picasso:2.71828] /Users/nbharadwaj/.gradle/caches/transforms-3/4065bfb6223df804c32ed846a8e49b83/transformed/picasso-2.71828/AndroidManifest.xml:11:13-37
-40    </application>
-41
-42</manifest>
+40        <provider
+40-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nbharadwaj/.gradle/caches/transforms-3/ffbd2101e3f6bd28817ecf2d0f767b8e/transformed/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+41            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+41-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nbharadwaj/.gradle/caches/transforms-3/ffbd2101e3f6bd28817ecf2d0f767b8e/transformed/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+42            android:authorities="com.tps.challenge.lifecycle-process"
+42-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nbharadwaj/.gradle/caches/transforms-3/ffbd2101e3f6bd28817ecf2d0f767b8e/transformed/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+43            android:exported="false"
+43-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nbharadwaj/.gradle/caches/transforms-3/ffbd2101e3f6bd28817ecf2d0f767b8e/transformed/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+44            android:multiprocess="true" />
+44-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nbharadwaj/.gradle/caches/transforms-3/ffbd2101e3f6bd28817ecf2d0f767b8e/transformed/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+45        <provider
+45-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/nbharadwaj/.gradle/caches/transforms-3/92c1445240a770444d4f7cfc9a6d8dca/transformed/profileinstaller-1.0.1/AndroidManifest.xml:26:9-34:20
+46            android:name="androidx.startup.InitializationProvider"
+46-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/nbharadwaj/.gradle/caches/transforms-3/92c1445240a770444d4f7cfc9a6d8dca/transformed/profileinstaller-1.0.1/AndroidManifest.xml:27:13-67
+47            android:authorities="com.tps.challenge.androidx-startup"
+47-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/nbharadwaj/.gradle/caches/transforms-3/92c1445240a770444d4f7cfc9a6d8dca/transformed/profileinstaller-1.0.1/AndroidManifest.xml:28:13-68
+48            android:exported="false" >
+48-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/nbharadwaj/.gradle/caches/transforms-3/92c1445240a770444d4f7cfc9a6d8dca/transformed/profileinstaller-1.0.1/AndroidManifest.xml:29:13-37
+49            <meta-data
+49-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/nbharadwaj/.gradle/caches/transforms-3/92c1445240a770444d4f7cfc9a6d8dca/transformed/profileinstaller-1.0.1/AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+50-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/nbharadwaj/.gradle/caches/transforms-3/92c1445240a770444d4f7cfc9a6d8dca/transformed/profileinstaller-1.0.1/AndroidManifest.xml:32:17-85
+51                android:value="androidx.startup" />
+51-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/nbharadwaj/.gradle/caches/transforms-3/92c1445240a770444d4f7cfc9a6d8dca/transformed/profileinstaller-1.0.1/AndroidManifest.xml:33:17-49
+52        </provider>
+53
+54        <receiver
+54-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/nbharadwaj/.gradle/caches/transforms-3/92c1445240a770444d4f7cfc9a6d8dca/transformed/profileinstaller-1.0.1/AndroidManifest.xml:36:9-45:20
+55            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+55-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/nbharadwaj/.gradle/caches/transforms-3/92c1445240a770444d4f7cfc9a6d8dca/transformed/profileinstaller-1.0.1/AndroidManifest.xml:37:13-76
+56            android:directBootAware="false"
+56-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/nbharadwaj/.gradle/caches/transforms-3/92c1445240a770444d4f7cfc9a6d8dca/transformed/profileinstaller-1.0.1/AndroidManifest.xml:38:13-44
+57            android:enabled="true"
+57-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/nbharadwaj/.gradle/caches/transforms-3/92c1445240a770444d4f7cfc9a6d8dca/transformed/profileinstaller-1.0.1/AndroidManifest.xml:39:13-35
+58            android:exported="true"
+58-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/nbharadwaj/.gradle/caches/transforms-3/92c1445240a770444d4f7cfc9a6d8dca/transformed/profileinstaller-1.0.1/AndroidManifest.xml:40:13-36
+59            android:permission="android.permission.DUMP" >
+59-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/nbharadwaj/.gradle/caches/transforms-3/92c1445240a770444d4f7cfc9a6d8dca/transformed/profileinstaller-1.0.1/AndroidManifest.xml:41:13-57
+60            <intent-filter>
+60-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/nbharadwaj/.gradle/caches/transforms-3/92c1445240a770444d4f7cfc9a6d8dca/transformed/profileinstaller-1.0.1/AndroidManifest.xml:42:13-44:29
+61                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+61-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/nbharadwaj/.gradle/caches/transforms-3/92c1445240a770444d4f7cfc9a6d8dca/transformed/profileinstaller-1.0.1/AndroidManifest.xml:43:17-91
+61-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/nbharadwaj/.gradle/caches/transforms-3/92c1445240a770444d4f7cfc9a6d8dca/transformed/profileinstaller-1.0.1/AndroidManifest.xml:43:25-88
+62            </intent-filter>
+63        </receiver>
+64    </application>
+65
+66</manifest>

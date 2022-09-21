@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_store.xml",
+        "source": "/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/res/layout/item_store.xml"
+    },
+    {
+        "merged": "/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_store_feed.xml",
+        "source": "/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/res/layout/fragment_store_feed.xml"
+    }
+]

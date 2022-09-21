@@ -1,21 +1,24 @@
 package com.tps.challenge.network.model
 
-import com.google.gson.annotations.SerializedName
+import android.os.Parcelable
+import com.squareup.moshi.Json
+import kotlinx.android.parcel.Parcelize
 
 /**
  * Store remote data model.
  */
+@Parcelize
 data class StoreResponse(
-    @SerializedName("id")
+    @Json(name = "id")
     val id: String,
-    @SerializedName("name")
+    @Json(name = "name")
     val name: String,
-    @SerializedName("description")
+    @Json(name = "description")
     val description: String,
-    @SerializedName("cover_img_url")
+    @Json(name = "cover_img_url")
     val coverImgUrl: String,
-    @SerializedName("status")
+    @Json(name = "status")
     val status: String,
-    @SerializedName("delivery_fee")
-    val deliveryFeeCents: String
-)
+    @Json(name = "delivery_fee")
+    val deliveryFeeCents: String,
+) : Parcelable
