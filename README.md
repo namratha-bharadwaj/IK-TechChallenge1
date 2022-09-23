@@ -1,3 +1,4 @@
+![Screen Shot 2022-09-22 at 8 19 35 PM](https://user-images.githubusercontent.com/36214693/191886171-5302869a-a004-4f60-a9f0-6cc6a119207a.png)
 # Android TPS Task Briefing
 ## Introduction
 This project is a starting point in your Android interview journey with DoorDash. At the first Phone screen stage you will start off by adding the initial functionality here and continue adding to it throughout the entire interview process. So keep the progress saved as you move forward.
