@@ -11,47 +11,47 @@
 9-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:4:5-67
-11-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:4:22-64
+11-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:6:5-24:19
+13-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:7:5-25:19
 14        android:name="com.tps.challenge.TCApplication"
-14-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:7:9-55
+14-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:8:9-55
 15        android:allowBackup="true"
-15-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:8:9-35
+15-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:9:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 16-->[androidx.core:core:1.6.0] /Users/nbharadwaj/.gradle/caches/transforms-3/a90b7f2be340304efa6978ac88b5b282/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 17        android:debuggable="true"
 18        android:extractNativeLibs="false"
 19        android:fullBackupContent="true"
-19-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:9:9-41
+19-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:10:9-41
 20        android:icon="@mipmap/ic_launcher"
-20-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:10:9-43
+20-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:11:9-43
 21        android:label="@string/app_name"
-21-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:11:9-41
+21-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:12:9-41
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:12:9-54
+22-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:13:9-54
 23        android:supportsRtl="true"
-23-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:13:9-35
+23-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:14:9-35
 24        android:testOnly="true"
 25        android:theme="@style/Theme.TechnicalChallenge" >
-25-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:14:9-56
+25-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:15:9-56
 26        <activity
-26-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:15:9-23:20
+26-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:16:9-24:20
 27            android:name="com.tps.challenge.MainActivity"
-27-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:16:13-41
+27-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:17:13-41
 28            android:exported="true" >
-28-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:17:13-36
+28-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:18:13-36
 29            <intent-filter>
-29-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:18:13-22:29
+29-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:19:13-23:29
 30                <action android:name="android.intent.action.MAIN" />
-30-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:19:17-69
-30-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:19:25-66
+30-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:20:17-69
+30-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:20:25-66
 31
 32                <category android:name="android.intent.category.LAUNCHER" />
-32-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:21:17-77
-32-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:21:27-74
+32-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:22:17-77
+32-->/Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:22:27-74
 33            </intent-filter>
 34        </activity>
 35

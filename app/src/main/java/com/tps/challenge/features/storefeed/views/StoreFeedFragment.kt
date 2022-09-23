@@ -13,16 +13,18 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.tps.challenge.Constants
 import com.tps.challenge.TCApplication
 import com.tps.challenge.databinding.FragmentStoreFeedBinding
+import com.tps.challenge.features.storefeed.IClickListener
 import com.tps.challenge.features.storefeed.StoreFeedAdapter
 import com.tps.challenge.features.storefeed.repository.StoreFeedRepositoryImpl
 import com.tps.challenge.features.storefeed.viewModel.StoreFeedViewModel
 import com.tps.challenge.features.storefeed.viewModel.StoreFeedViewModelFactory
 import com.tps.challenge.network.TPSApi
+import com.tps.challenge.network.model.StoreResponse
 
 /**
  * Displays the list of Stores with its title, description and the cover image to the user.
  */
-class StoreFeedFragment : Fragment() {
+class StoreFeedFragment : Fragment(), IClickListener {
     companion object {
         const val TAG = "StoreFeedFragment"
     }
@@ -30,6 +32,8 @@ class StoreFeedFragment : Fragment() {
     private lateinit var storesRecyclerView : RecyclerView
 //    private lateinit var swipeRefreshLayout : SwipeRefreshLayout
     private lateinit var binding: FragmentStoreFeedBinding
+
+    private var clickListener: IClickListener? = null
 
     private val storeViewModel by lazy {
         ViewModelProvider(
@@ -43,6 +47,7 @@ class StoreFeedFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         TCApplication.getAppComponent().inject(this)
         super.onCreate(savedInstanceState)
+        setupClickListener()
     }
 
     override fun onCreateView(
@@ -57,14 +62,21 @@ class StoreFeedFragment : Fragment() {
 //        swipeRefreshLayout.isEnabled = false
         setupRecyclerView()
         storeViewModel.fetchStoreFeed(Constants.DEFAULT_LATITUDE, Constants.DEFAULT_LONGITUDE)
-        return view
+
+        return binding.root
+    }
+
+    private fun setupClickListener() {
+        if (clickListener == null) {
+            clickListener = this
+        }
+
     }
 
     private fun setupRecyclerView() {
         storeFeedAdapter = StoreFeedAdapter()
         storesRecyclerView = binding.storesView
         storesRecyclerView.apply {
-            setHasFixedSize(true)
             layoutManager = LinearLayoutManager(requireActivity())
             adapter = storeFeedAdapter
         }
@@ -75,5 +87,13 @@ class StoreFeedFragment : Fragment() {
         storeViewModel.storeFeedList.observe(viewLifecycleOwner) { storeFeedList ->
             storeFeedAdapter.submitList(storeFeedList)
         }
+    }
+
+    override fun onStoreItemClick(storeFiItem: StoreResponse) {
+        navigateToDetailsFragment()
+    }
+
+    private fun navigateToDetailsFragment() {
+
     }
 }

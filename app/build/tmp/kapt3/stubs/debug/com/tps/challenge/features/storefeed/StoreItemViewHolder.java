@@ -2,9 +2,8 @@ package com.tps.challenge.features.storefeed;
 
 import java.lang.System;
 
-@kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u0000 \n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0004\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\u0018\u0000 \u000b2\u00020\u0001:\u0001\u000bB\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004J\u000e\u0010\u0007\u001a\u00020\b2\u0006\u0010\t\u001a\u00020\nR\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0005\u0010\u0006\u00a8\u0006\f"}, d2 = {"Lcom/tps/challenge/features/storefeed/StoreItemViewHolder;", "Landroidx/recyclerview/widget/RecyclerView$ViewHolder;", "binding", "Lcom/tps/challenge/databinding/ItemStoreBinding;", "(Lcom/tps/challenge/databinding/ItemStoreBinding;)V", "getBinding", "()Lcom/tps/challenge/databinding/ItemStoreBinding;", "bind", "", "storeResponse", "Lcom/tps/challenge/network/model/StoreResponse;", "Companion", "app_debug"})
+@kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u0000 \n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\u0018\u0000 \t2\u00020\u0001:\u0001\tB\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004J\u000e\u0010\u0005\u001a\u00020\u00062\u0006\u0010\u0007\u001a\u00020\bR\u000e\u0010\u0002\u001a\u00020\u0003X\u0082\u0004\u00a2\u0006\u0002\n\u0000\u00a8\u0006\n"}, d2 = {"Lcom/tps/challenge/features/storefeed/StoreItemViewHolder;", "Landroidx/recyclerview/widget/RecyclerView$ViewHolder;", "binding", "Lcom/tps/challenge/databinding/ItemStoreBinding;", "(Lcom/tps/challenge/databinding/ItemStoreBinding;)V", "bind", "", "storeResponse", "Lcom/tps/challenge/network/model/StoreResponse;", "Companion", "app_debug"})
 public final class StoreItemViewHolder extends androidx.recyclerview.widget.RecyclerView.ViewHolder {
-    @org.jetbrains.annotations.NotNull()
     private final com.tps.challenge.databinding.ItemStoreBinding binding = null;
     @org.jetbrains.annotations.NotNull()
     public static final com.tps.challenge.features.storefeed.StoreItemViewHolder.Companion Companion = null;
@@ -12,11 +11,6 @@ public final class StoreItemViewHolder extends androidx.recyclerview.widget.Recy
     public StoreItemViewHolder(@org.jetbrains.annotations.NotNull()
     com.tps.challenge.databinding.ItemStoreBinding binding) {
         super(null);
-    }
-    
-    @org.jetbrains.annotations.NotNull()
-    public final com.tps.challenge.databinding.ItemStoreBinding getBinding() {
-        return null;
     }
     
     public final void bind(@org.jetbrains.annotations.NotNull()

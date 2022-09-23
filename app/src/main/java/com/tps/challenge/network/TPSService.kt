@@ -26,6 +26,7 @@ private val moshi = Moshi.Builder()
 private val retrofit = Retrofit.Builder()
     .addConverterFactory(MoshiConverterFactory.create(moshi))
     .addCallAdapterFactory(CoroutineCallAdapterFactory())
+    .client(OkHttpClient.getOkHttpsClient().build())
     .baseUrl(BASE_URL)
     .build()
 
@@ -35,10 +36,10 @@ interface TPSService {
      * Returns the Store feed per location provided.
      */
     @GET("v1/feed")
-    suspend fun getStoreFeed(
+    fun getStoreFeed(
         @Query("lat") latitude: Double,
         @Query("lng") longitude: Double
-    ): List<StoreResponse>
+    ): Deferred<List<StoreResponse>>
 
     /**
      * Returns a detailed specification for the Store.
@@ -50,7 +51,6 @@ interface TPSService {
 }
 
 object TPSApi {
-    val retrofitService: TPSService by lazy {
-        retrofit.create(TPSService::class.java)
-    }
+    val retrofitService:TPSService = retrofit.create(TPSService::class.java)
+
 }

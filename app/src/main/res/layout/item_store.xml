@@ -7,13 +7,18 @@
         <variable
             name="storeItem"
             type="com.tps.challenge.network.model.StoreResponse" />
+
+        <variable
+            name="clickListener"
+            type="com.tps.challenge.features.storefeed.IClickListener" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-
+        android:id="@+id/storeItemLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp">
+        android:padding="16dp"
+        android:onClick="@{() -> clickListener.onStoreItemClick(storeItem) }">
 
         <TextView
             android:id="@+id/name"

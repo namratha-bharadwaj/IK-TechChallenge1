@@ -2237,6 +2237,7 @@ id staticLayout
 id staticPostLayout
 id status_bar_latest_event_content
 id stop
+id storeItemLayout
 id stores_view
 id stretch
 id submenuarrow

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.databinding:databinding-adapters:7.0.2] /Users/nbharadwaj/.gradle/caches/transforms-3/a8a857ecb0074e43e2e5d45867c276bb/transformed/databinding-adapters-7.0.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:databinding-ktx:7.0.2] /Users/nbharadwaj/.gradle/caches/transforms-3/1bf5874ee4fa3ddef0b376b048ff9299/transformed/databinding-ktx-7.0.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:databinding-runtime:7.0.2] /Users/nbharadwaj/.gradle/caches/transforms-3/2bf8cca778cdf07f080882d376f33709/transformed/databinding-runtime-7.0.2/AndroidManifest.xml:17:1-22:12
@@ -75,29 +75,29 @@ MERGED from [androidx.print:print:1.0.0] /Users/nbharadwaj/.gradle/caches/transf
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nbharadwaj/.gradle/caches/transforms-3/a9360d995f53900be43e052b8a5ce17e/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/nbharadwaj/.gradle/caches/transforms-3/b3bd714a3221a67cb977b4e4ccd42a92/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:exifinterface:27.1.0] /Users/nbharadwaj/.gradle/caches/transforms-3/4fa9ce58a0b8c8e3eea0bc773a8fe47b/transformed/exifinterface-27.1.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:3:5-32
 		INJECTED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:6:5-24:19
+ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:7:5-25:19
 MERGED from [com.google.android.material:material:1.4.0] /Users/nbharadwaj/.gradle/caches/transforms-3/ae3fae8046951ebf63eea9fb14351c92/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /Users/nbharadwaj/.gradle/caches/transforms-3/ae3fae8046951ebf63eea9fb14351c92/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/nbharadwaj/.gradle/caches/transforms-3/692a7c3d72cff8d853b7127ea2efcfd9/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
@@ -123,37 +123,37 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nbharadwaj/.gradle/c
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] /Users/nbharadwaj/.gradle/caches/transforms-3/a90b7f2be340304efa6978ac88b5b282/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:12:9-41
 	android:fullBackupContent
-		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:9:9-41
+		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:14:9-56
+		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:15:9-56
 	android:name
-		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:7:9-55
+		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:8:9-55
 activity#com.tps.challenge.MainActivity
-ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:15:9-23:20
+ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:16:9-24:20
 	android:exported
-		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:17:13-36
+		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:16:13-41
+		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:17:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:18:13-22:29
+ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/nbharadwaj/Documents/IK/AndroidFundamentals/Assignment/Mock-interview-1/android-tps-github/IK-TechChallenge1/app/src/main/AndroidManifest.xml

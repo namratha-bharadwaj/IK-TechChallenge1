@@ -11,7 +11,7 @@ import com.tps.challenge.network.model.StoreResponse
 /**
  * A RecyclerView.Adapter to populate the screen with a store feed.
  */
-class StoreFeedAdapter() : ListAdapter<StoreResponse, StoreItemViewHolder>(StoreDiffCallback()) {
+class StoreFeedAdapter : ListAdapter<StoreResponse, StoreItemViewHolder>(StoreDiffCallback()) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StoreItemViewHolder {
         return StoreItemViewHolder.from(parent)
@@ -25,7 +25,7 @@ class StoreFeedAdapter() : ListAdapter<StoreResponse, StoreItemViewHolder>(Store
 
 }
 
-class StoreItemViewHolder(val binding: ItemStoreBinding): RecyclerView.ViewHolder(binding.root) {
+class StoreItemViewHolder(private val binding: ItemStoreBinding): RecyclerView.ViewHolder(binding.root) {
 
     //Bind viewHolder
     fun bind (storeResponse: StoreResponse) {

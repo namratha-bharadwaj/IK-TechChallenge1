@@ -2236,6 +2236,7 @@ int id staticLayout 0x7f080191
 int id staticPostLayout 0x7f080192
 int id status_bar_latest_event_content 0x7f080193
 int id stop 0x7f080194
+int id storeItemLayout 0x7f0801e4
 int id stores_view 0x7f080195
 int id stretch 0x7f080196
 int id submenuarrow 0x7f080197

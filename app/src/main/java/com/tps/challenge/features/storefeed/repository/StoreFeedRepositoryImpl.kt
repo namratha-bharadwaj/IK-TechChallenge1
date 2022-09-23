@@ -9,7 +9,7 @@ class StoreFeedRepositoryImpl(private val tpsService: TPSService): StoreFeedRepo
 
     override suspend fun getStoreFeed(lat: Double, long: Double): List<StoreResponse>? {
         return try {
-            val storeResponse = tpsService.getStoreFeed(lat, long)
+            val storeResponse = tpsService.getStoreFeed(lat, long).await()
             storeResponse
         } catch (e: Exception) {
             Log.e("TPSService", e.localizedMessage)

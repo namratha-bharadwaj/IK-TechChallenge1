@@ -7,10 +7,12 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import com.tps.challenge.R;
+import com.tps.challenge.features.storefeed.IClickListener;
 import com.tps.challenge.network.model.StoreResponse;
 import java.lang.Deprecated;
 import java.lang.Object;
@@ -22,14 +24,21 @@ public abstract class ItemStoreBinding extends ViewDataBinding {
   @NonNull
   public final TextView name;
 
+  @NonNull
+  public final ConstraintLayout storeItemLayout;
+
   @Bindable
   protected StoreResponse mStoreItem;
 
+  @Bindable
+  protected IClickListener mClickListener;
+
   protected ItemStoreBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      TextView description, TextView name) {
+      TextView description, TextView name, ConstraintLayout storeItemLayout) {
     super(_bindingComponent, _root, _localFieldCount);
     this.description = description;
     this.name = name;
+    this.storeItemLayout = storeItemLayout;
   }
 
   public abstract void setStoreItem(@Nullable StoreResponse storeItem);
@@ -37,6 +46,13 @@ public abstract class ItemStoreBinding extends ViewDataBinding {
   @Nullable
   public StoreResponse getStoreItem() {
     return mStoreItem;
+  }
+
+  public abstract void setClickListener(@Nullable IClickListener clickListener);
+
+  @Nullable
+  public IClickListener getClickListener() {
+    return mClickListener;
   }
 
   @NonNull

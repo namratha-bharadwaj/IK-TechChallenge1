@@ -1,13 +1,12 @@
 package com.tps.challenge.network.model
 
-import android.os.Parcelable
 import com.squareup.moshi.Json
-import kotlinx.android.parcel.Parcelize
+import com.squareup.moshi.JsonClass
 
 /**
  * Store remote data model.
  */
-@Parcelize
+@JsonClass(generateAdapter = true)
 data class StoreResponse(
     @Json(name = "id")
     val id: String,
@@ -21,4 +20,4 @@ data class StoreResponse(
     val status: String,
     @Json(name = "delivery_fee")
     val deliveryFeeCents: String,
-) : Parcelable
+)
